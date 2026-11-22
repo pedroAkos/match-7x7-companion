@@ -1,9 +1,9 @@
 # Match 7x7 companion – Wear OS proof of concept
 
 ## What this is
-A friend runs a web app that tracks attendance and statistics for casual football matches. Today, whoever scores has the match's logger step off the pitch to record the event on a phone, including who scored and who assisted.
+An existing web app tracks attendance and statistics for casual football matches. Today, whoever scores has the match's logger step off the pitch to record the event on a phone, including who scored and who assisted.
 
-This project is a **proof of concept** of a Wear OS watch app that lets one player (the single writer) log goals live in three taps: **Goal -> scorer -> assist**. It runs on the Wear OS emulator only (no real watch yet). There is no real backend yet either: a small mock server stands in for the web app.
+This project is a **proof of concept** of a Wear OS watch app that lets one player (the single writer) log goals live in a few taps: **Goal -> team -> scorer -> assist -> Confirm** (see "Tap flow" below). It runs on the Wear OS emulator only (no real watch yet). There is no real backend yet either: a small mock server stands in for the web app.
 
 The proof of concept must demonstrate the technical risks, not polish:
 1. The watch UI flow works and is fast to use.

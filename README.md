@@ -109,3 +109,7 @@ Each event has `eventId` (UUID made on the watch), `matchId`, `type` (`GOAL` / `
 - **HTTPS and authentication** for any real use. The debug build allows plain HTTP to the emulator's host address only, and the app has no auth at all.
 - **Replace the development shortcuts:** write real database migrations instead of wiping data, add automatic retry for sync, and review ambient mode, battery use and error handling on real hardware.
 - **Test on a real watch** with real match conditions: sweat, gloves and running change how usable the touch targets and the number of taps feel, and that has not been tested.
+
+## License
+
+[MIT](LICENSE).
